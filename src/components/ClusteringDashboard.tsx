@@ -27,7 +27,17 @@ export function ClusteringDashboard() {
     <div className="min-h-screen bg-[#FFFDF7] text-black">
       <div className="relative mx-auto max-w-4xl px-4 py-6 md:max-w-5xl md:px-6 md:py-8">
         <header className="mb-6 border-b-4 border-black pb-5">
-          <p className="text-sm font-medium text-[#5c5c5c]">Visual Analytics · Exercise 5</p>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <p className="text-sm font-medium text-[#5c5c5c]">Visual Analytics · Exercise 5</p>
+            <a
+              href="https://github.com/pr33thaml/exercise5-visual-analytics"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-black bg-white px-2.5 py-1 text-xs font-bold hover:bg-[#F5F5F5]"
+            >
+              GitHub ↗
+            </a>
+          </div>
           <h1 className="mt-1 text-3xl font-bold tracking-tight md:text-4xl">
             Exercise Dashboard
           </h1>
