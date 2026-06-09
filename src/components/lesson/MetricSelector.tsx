@@ -3,6 +3,7 @@
 import { METRIC_INFO, type DistanceMetric } from "@/lib/math";
 import { contrastTextOn } from "@/lib/color-utils";
 import { TermButton } from "@/components/glossary/TermButton";
+import { MetricIllustration } from "./MetricIllustration";
 
 const METRICS: DistanceMetric[] = ["euclidean", "manhattan", "cosine"];
 
@@ -41,6 +42,7 @@ export function MetricSelector({ metric, onChange, accent }: Props) {
           );
         })}
       </div>
+      <MetricIllustration metric={metric} accent={accent} />
       <p className="text-xs text-[#888]">
         Using{" "}
         <TermButton termId={METRIC_INFO[metric].termId}>
