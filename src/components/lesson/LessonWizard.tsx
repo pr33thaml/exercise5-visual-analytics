@@ -133,7 +133,7 @@ export function LessonWizard({ datasetId, onDatasetChange }: Props) {
 
       <p className="border-t border-black/10 px-4 py-2 text-center text-xs text-[#5c5c5c] md:px-6">
         Tap <span className="font-semibold underline decoration-dotted">dotted words</span> for definitions · use{" "}
-        <span className="font-semibold">Edit text</span> to customize any highlighted section (saved in your browser)
+        <span className="font-semibold">Edit text</span> to customize sections (password required · saved in your browser)
       </p>
 
       <StepNavigator
